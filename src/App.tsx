@@ -10,11 +10,9 @@ function App() {
 
   return (
 
-    <h1></h1>
-
     <>
       <RegisterComponent />
-      <AllUsers id={id} key = {123} name = "bname"/>
+      <AllUsers />
     </>
   );
 }

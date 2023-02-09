@@ -3,17 +3,16 @@ import axios from 'axios';
 import { log } from 'console';
 import ListUsers from './ListUsers';
 
-function AllUsers({id, name, key}) {
+function AllUsers(props) {
 
     const [users, setUsers] = useState('');
 
     useEffect(() => {
-        console.log(id)
         fetchUsers();
     }, [])
 
     const fetchUsers = () => {
-            axios.get('http://localhost:4000/users/'+id)
+            axios.get('http://localhost:4000/users/')
                 .then(function (response: any) {
                     console.log(response.data)
                     setUsers(response.data)
