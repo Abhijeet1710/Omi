@@ -1,0 +1,40 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "userName": "Abhi",
+      "password": "pass"
+    },
+    {
+      "id": 2,
+      "userName": "Omi",
+      "passworrd": "OmiDhamale"
+    },
+    {
+      "userName": "abc",
+      "password": "123",
+      "id": 3
+    },
+    {
+      "userName": "new data username",
+      "password": "1234",
+      "id": 4
+    },
+    {
+      "userName": "xcv",
+      "password": "567",
+      "id": 5
+    },
+    {
+      "userName": "xcv",
+      "password": "567",
+      "id": 6
+    },
+    {
+      "userName": "King",
+      "password": "KingsPassword",
+      "id": 7
+    }
+  ],
+  "posts": []
+}
